@@ -79,3 +79,15 @@
     left: -15rem;
 }
 }
+@media screen and (max-width:250px){
+   .center h1{
+    font-size: 1.2rem;    
+   }
+   .center p{
+    width: 85vw;
+    margin-left: -12rem;
+   }
+   .bi-list{
+    left: 18rem;
+   }
+}
