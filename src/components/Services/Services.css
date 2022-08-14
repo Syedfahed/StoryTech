@@ -1,0 +1,51 @@
+.services{
+    margin-top: 10rem;
+}
+.services p{
+    margin-left: 5rem;
+    color: red;
+}
+.services h1{
+    margin-top: 5rem;
+    font-size: 4.8rem;
+    width: 96%;
+    margin-left: 1.5rem;
+}
+.services h3{
+    width: 85%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 2.4rem;
+}
+.three-box{
+    display: flex;
+    width: 88%;
+    gap: 2rem;
+   margin-left: 5rem;
+    margin-top: 5rem;
+}
+.three-box i{
+  font-size: 3rem;
+  color: #26bfb5;
+}
+.three-box h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.three-box p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:700px){
+   .services h1{
+    font-size: 3rem;
+   }
+   .services h3{
+    font-size: 1.8rem;
+   }
+   .three-box{
+    display: grid;
+    gap: 5rem;
+   }
+
+}

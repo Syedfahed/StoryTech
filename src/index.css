@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body p span{
+    font-family: "metropolis-regular", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contaniner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.contaniner img{
+    width: 5vw;
+}
+

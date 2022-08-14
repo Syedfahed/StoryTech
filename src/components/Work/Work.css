@@ -1,0 +1,106 @@
+.work p{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    color: red;
+}
+.work h1{
+    margin-top: 2rem;
+    font-size: 5rem;
+    width: 96%;
+    margin-left: 3rem;
+}
+.images{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.work-img{
+    width: 20vw;
+    height: 50vh;
+    object-fit: cover;
+    border: solid 0.1rem black;
+    cursor: pointer;
+}
+.clients{
+    margin-top: 5rem;
+    display: flex;
+    width: 90%;
+}
+.user-img{
+    max-width: 20%;
+    height: 10vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-1{
+    display: flex;
+    gap: 1rem;
+   
+    margin-left: 5rem;
+}
+.user-name1{
+    margin-top: 10rem;
+    position: relative;
+    right: 25rem;
+}
+.user-2{
+    margin-left: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+.user-name2{
+    margin-top: 10rem;
+    position: relative;
+    right: 15rem;
+}
+.user-1 p{
+    font-size: 1.2rem;
+    width: 60%;
+}
+.user-2 p{
+    font-size: 1.2rem;
+}
+.cl-h1{
+    margin-top: 10rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+
+@media screen and (max-width:700px){
+  .work h1{
+    font-size: 3rem;
+  }
+.images{
+    display: grid;
+    gap: 5rem;
+}
+.work-img{
+    width: 50vw;
+    height: 100vh;
+}
+.clients{
+    display: grid;
+}
+}
+@media screen and (max-width:700px){
+ .work h1{
+    font-size: 2.8rem;
+ }
+ .work-img{
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+ }
+ .cl-h1{
+    font-size: 2rem;
+    margin-left: 5rem;
+ }
+}

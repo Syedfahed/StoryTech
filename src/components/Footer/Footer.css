@@ -1,0 +1,121 @@
+footer{
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.footer{
+    margin-top: 10rem;
+}
+.footer span{
+    color: red;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+.footer h1{
+    margin-top: 2rem;
+    width: 80%;
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.footer h4{
+   font-size: 2rem;
+   margin-top: 2rem;
+   margin-left: 5rem;
+}
+.footer h6{
+    font-size: 1.5rem;
+   margin-top: 0.5rem;
+   margin-left: 5rem; 
+   color: rgba(255, 255, 255, 0.3);
+}
+.location{
+    margin-top: 3rem;
+    display: flex;
+    gap: 15rem;
+}
+.address h3{
+    margin-left: 6rem;
+    width: 20vw;
+    color: rgba(255, 255, 255, 0.3);
+}
+.icons{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.3);
+}
+.icons i:hover{
+ color: white;
+ cursor: pointer;
+}
+.app span{
+    margin-right: 2rem;
+}
+.bi-arrow-up{
+    position: relative;
+   left:90%;
+   top: -2rem;
+  cursor: pointer;
+   font-size: 2rem;
+   color: white;
+}
+.bi-arrow-up:hover{
+    color: red;
+}
+
+@media screen and (max-width:700px){
+    .footer h1{
+     font-size: 2rem;
+    }
+    .address span{
+       font-size: 0.8rem;
+    }
+    footer{
+        background-color: white;
+        color: black;
+    }
+    .location h3{
+        color: black;
+    }
+    .app span{
+        font-size: 0.9rem;
+        margin-left: -5rem;
+    }
+    .icons i{
+        color: black;
+    }
+    .icons i:hover{
+        color: red;
+    }
+    .icons{
+        margin-left: -1rem;
+
+    }
+}
+@media screen and (max-width:400px){
+    .footer{
+        background-color: black;
+        color: white;
+    }
+    .location h3{
+        font-size: 1rem;
+        width: 50%;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .icons i{
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .address span{
+        font-size: 0.6rem;
+    }
+    .location{
+        margin-left: -1rem;
+    }
+    .footer span{
+        position: relative;
+        top: 1rem;
+    }
+}
