@@ -57,3 +57,23 @@ button:hover{
     margin-bottom: 5rem;
   
 }
+@media screen and (max-width:450px) {
+    .resume-login h2{
+        font-size: 0.8rem;
+    }
+    .img{
+        width: 12%;
+        margin-top: 2rem;
+    }
+    input{
+        width: 60%;
+      
+    }
+    form{
+        margin-left: 2rem;
+    }
+    button{
+        width: 90%;
+    }
+    
+}
