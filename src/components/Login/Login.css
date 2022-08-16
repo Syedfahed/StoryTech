@@ -59,6 +59,8 @@ button:hover{
 }
 
 
+
+
 @media screen and (max-width:450px) {
     .resume-login h2{
         font-size: 0.8rem;
@@ -70,6 +72,7 @@ button:hover{
     input{
         width: 60%;
 
+   
     }
     form{
         margin-left: 2rem;
@@ -78,4 +81,7 @@ button:hover{
         width: 90%;
     }
 
+
 }
+    
+
