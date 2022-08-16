@@ -1,4 +1,10 @@
-
+.home{
+   background-image: url('/public//Image/bgimg.jpg');
+   height: 100vh;
+   display: grid;
+   align-items: center;
+   color: white;
+}
 .center{
     display: grid;
     align-items: center;
@@ -53,6 +59,10 @@
         margin-left: -3.5rem;
         font-size: 0.9rem;
         
+    }
+    .home{
+        background-image: none;
+        color: black;
     }
     .scroll-down{
         position: relative;

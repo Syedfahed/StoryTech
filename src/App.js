@@ -1,12 +1,6 @@
 import React,{useState} from 'react'
 import {BrowserRouter as Router ,Routes,Route} from "react-router-dom"
-import About from './components/About/About'
-import Clients from './components/Clients/Clients'
-import Footer from './components/Footer/Footer'
-import Home from './components/Home/Home'
 import Navbar from './components/Navbar'
-import Services from './components/Services/Services'
-import Work from './components/Work/Work'
 import Login from './components/Login/Login'
 import Main from './Main'
 import Signup from './components/Login/Signup'
